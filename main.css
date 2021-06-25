@@ -1,0 +1,121 @@
+*, *::after, *::before {
+    box-sizing: border-box;
+}
+body {
+    background-color: rgb(172, 172, 172);
+    margin: 0;
+    height: 100vh;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.3em;
+    padding: 2em;
+}
+/* main section */
+section {
+    position: relative;
+    background-color: rgb(228, 228, 228);
+    border-radius: 1em;
+    height: 100%;
+    padding: 2em;
+    box-shadow: 5px 10px 10px rgb(143, 143, 143);
+}
+/* Top section bar with image and text */
+.top {
+    display: flex;
+    height: 50%;
+    padding-bottom: 1em;
+    justify-content: space-between;
+}
+.top div {
+    position: relative;
+    width: 100%;
+    text-align: center;
+    font-size: 0.8em;
+}
+/* Picture */
+
+.pic {
+    position: relative;
+    background-image: url('https://lh3.google.com/u/1/d/13OVrMZMkO8jsQq99dvyPc2n9TPzzVcng=w3000-h6495-iv2');
+    background-size: cover;
+    background-position: center;
+    border-radius: 0.5em;
+    box-shadow: 5px 10px 10px rgb(143, 143, 143);
+}
+
+.text-img {
+    text-align: center;
+    color: white;
+    margin-top: 35vh;
+    margin-left: 1em;
+    width: 3em;
+    background-color: rgba(49, 60, 97, 0.562);
+    border-radius: 3px;
+}
+/* about me */
+.about h1 {
+    text-shadow: 1px 1px 10px rgba(255, 255, 255, 0.76);
+}
+.about p{
+    font-size: 1em;
+}
+a {
+    text-decoration: none;
+    color: black;
+    font-weight:bold;
+}
+.logo {
+    width: 1.2em;
+    height: 1.2em;
+    vertical-align: bottom;
+}
+/* hobbies */
+ul {
+    position: relative;
+    text-align: left;
+}
+
+
+/* easter egg */
+.help:hover::after {
+    position: absolute;
+    content: 'lol, obviously';
+    width: 4.5em;
+    height: 3em;
+    text-align: center;
+    color: white;
+    background-color: rgb(77, 77, 77);
+    padding: 0.5em;
+    left: 20em;
+    bottom: 2em;
+    font-size: 0.5em;
+    border-radius: 90% 90% 90% 10%;
+    transition-delay: 1s;
+    box-shadow: 5px 10px 10px rgb(143, 143, 143);
+
+}
+span {
+    color: rgb(58, 99, 87);
+}
+/* Table */
+.table{
+    padding: 0 1em 0 1em;
+
+
+}
+h3 {
+    text-align: center;
+}
+table {
+    width: 100%;
+    text-align: center;
+    border:rgb(97, 97, 97) solid 3px;
+    border-radius: 15px;
+    box-shadow: 3px 3px 10px rgb(143, 143, 143);
+
+}
+th {
+    border:rgb(97, 97, 97) solid 1px;
+    border-radius: 10px;
+
+
+}
